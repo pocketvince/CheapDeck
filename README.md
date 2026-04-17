@@ -3,20 +3,21 @@ Like a Stream Deck, but cheap
 
 ![Alt text](https://raw.githubusercontent.com/pocketvince/CheapDeck/main/cheapdeck_logo.png?raw=true "Logo")
 
+
 ## Description
 The idea is to use it like a Stream Deck: you click on the icons, and it runs your scripts/programs
 
-<video src="https://raw.githubusercontent.com/pocketvince/CheapDeck/main/video.mp4" controls="controls" autoplay="autoplay" loop="loop" muted="muted" style="max-width: 100%;"></video>
+![Alt text](https://raw.githubusercontent.com/pocketvince/CheapDeck/main/video.gif?raw=true "video")
+
 
 ## Installation
-1. Install Python dependencies
+Install Python dependencies
 
 ```shell
 PS C:\Users\xxxx> pip.exe install flask
 ```
 
 ## Setup
-![Alt text](https://raw.githubusercontent.com/pocketvince/CheapDeck/main/picture.jpg?raw=true "picture")
 
 • Place your files/scripts in the same folder as the main script, and add an image with the same name to serve as the icon, for example: `my_app.exe` -> `my_app.jpg`, `my_shortcut.lnk` -> `my_shortcut.png`
 
@@ -36,6 +37,9 @@ IGNORE_FILES = ['cheapdeck.py', 'launch.bat']
 For a better experience, I installed the ALLNET Fullscreen Browser app on an old Huawei tablet. It displays the page in full screen, making it much more comfortable to use
 
 https://play.google.com/store/apps/details?id=de.allnet.allnetfullscreenbrowser
+
+![Alt text](https://raw.githubusercontent.com/pocketvince/CheapDeck/main/picture.jpg?raw=true "picture")
+
 
 ## Contributing
 
